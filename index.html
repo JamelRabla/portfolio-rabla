@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+    <title>RABLA JAMEL | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="styles.scss" />
+    <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <body>
+    <div id="top"></div>
+
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Bonjour, je suis <span class="text-color-main">Rabla Jamel</span>
+          <br />
+          Jeune développeur en herbe !
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">En savoir plus</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">À propos de moi</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                height="auto"
+                width="500px"
+                src="assets/me.svg"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                Actuellement en quête d'une alternance dans le
+                domaine de l'informatique, dans le cadre de ma
+                poursuite d'études en développement au seins de
+                l'établissement CESI. Mon objectif est de mettre
+                en pratique mes compétences, tout en contribuant
+                au succès de l'entreprise qui m'accueillera.
+                Passionné par les nouvelles technologies, je suis
+                déterminé à développer ma carrière dans ce
+                secteur dynamique.                
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/cv.pdf"
+                >
+                  Mon CV
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projets</h2>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title"> Dispositif Anti-fugue</h3>
+                <div>
+                  <p class="mb-4">
+                    Dans le cadre de notre projet d'étude, nous développons un dispositif destiné à prévenir les chutes et les fugues des résidents des EHPAD. Ce système de surveillance en temps réel utilise des technologies de détection et d'alerte pour assurer la sécurité des patients.
+                    <br>
+                    Ma tâche principale était de créer la base de données et de développer l'interface web. La base de données stocke les informations des résidents et les alertes, tandis que l'interface web permet au personnel soignant de surveiller les résidents et de recevoir des notifications instantanées, assurant ainsi une intervention rapide et efficace.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="./projetBTS/ANTIFUGUE/index.html"
+                >
+                  Voir plus
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project1.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Puissance 4 en ligne</h3>
+                <div>
+                  <p class="mb-4">
+                    Dans le cadre de mon apprentissage autodidacte, j'ai développé un jeu de Puissance 4 multijoueur en utilisant React. Ce projet met en pratique mes compétences en développement web et en conception de jeux, offrant une expérience interactive. En utilisant React, j'ai créé une interface utilisateur réactive et fluide, permettant une expérience multijoueur en temps réel.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  En dév...
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project2.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contactez-moi !</h2>
+        <div class="container">
+          <div class="social-links">
+            <a href="mailto:jamelrablapro@gmail.com" >
+              <i class="fa fa-envelope-o fa-inverse"></i>
+            </a>
+            <a rel="noreferrer" href="https://www.linkedin.com/in/jamel-rabla/" target="_blank">
+              <i class="fa fa-linkedin fa-inverse"></i>
+            </a>
+            <a href="tel:0602467920">
+              <i class="fa fa-phone fa-inverse"></i>
+            </a>
+          </div>
+      </div>
+    </section>
+
+
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          © 2024 - developed by
+          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
+            >Rabla Jamel</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
